@@ -1,0 +1,196 @@
+<!Doctype html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<script   src="scripts/script1.js"></script>
+
+<!-- <script type="module" src="mini.js"></script> -->
+<title>calculator</title>
+
+
+<style>
+body{
+
+font-family:'poppins',sans-seriff;
+background-image:url('');
+background-repeat:repeat;
+background-color:#FBE0CB;
+
+}
+
+.hole{
+width:32%;
+
+
+}
+.sofa{
+
+
+}
+
+.hole img{
+width:90%;
+z-index:2;
+position:relative;		
+}
+
+.mole img{
+
+width:45%;
+transform:translate(52%,-220%);
+z-index:0;
+position:relative;
+}
+.container{
+margin-top:10%;
+margin-right:5%;
+
+
+}
+
+.imghidden{
+display:none;
+}
+
+
+.imgdisplay{
+display:block;
+
+}
+.hole{
+margin-bottom:50px;
+}
+.scorecontainer{
+position:absolute;top:2%;right:2%;text-align:center;
+}
+
+.hole1,.hole2,.hole3{
+margin-bottom:50px;
+
+}
+@media screen and (max-width:500px){
+
+
+.scorecontainer{
+position:absolute;
+top:100%;
+transform:translateY(15%);
+left:34%;
+}
+}
+
+</style>
+</head>
+
+
+<body>
+<div class="modal" style="background-color:#FBE0CB;text-align:center;" id="scoremodal">
+<div class="modal-dialog">
+<div class="modal-content bg-dark text-light"  style="height:300px;width:400px;box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 4px 8px 0 rgba(0,0,0,0.2);">
+<div class="modal-body">
+<h1 id="finalscore">FINAL SCORE : 0 points <h1>
+<p>YOU SHOULD HAVE WORKED BETTER TO BEAT JANICE! </p>
+<button onclick="document.location.reload();" class="btn btn-outline-warning"><i class="fa fa-refresh"></i> RESTART GAME</button>
+</div>
+</div>
+
+</div>
+</div>
+<div class="scorecontainer">
+<div class="card " style="background-color:#FFD46C;height:100px;width:180px;box-sizing:border-box;">
+<h4 class="my-2">SCORE :</h4>
+<h5 class="score">0<span> points</span></h5>
+</div>
+<div class="progress my-3">
+<div id="time" class="progress-bar progress-bar-animated progress-bar-striped bg-info py-1" style="width:100%;">
+100% time remaining
+</div>
+</div>
+</div>
+
+<button id="startbtn" class="btn btn-warning mx-5 my-5 btn-lg">START GAME <i class="fa fa-play-circle"></i></button>
+<div class="container ">
+<div class="alert alert-warning">
+<h4 style="text-align:center;"><u>BEAT JANICE IN THE HEAD</u>!!!!<br> <b>STOP CHANDLER FROM GOING TO YEMEN</b></h4>
+</div>
+<div class="row">
+<div class="hole hole1">
+<img src="images/sofa1.png" class="sofa1 sofa"/>
+<div class="mole mole1">
+
+<img src="images/giphy2.gif" class="janice1 janice imghidden"/>
+</div>
+
+
+
+</div>
+
+<div class="hole hole2">
+<img src="images/sofa1.png" class="sofa1 sofa"/>
+<div class="mole mole2">
+
+<img src="images/giphy2.gif" class="janice1 janice imghidden"/>
+</div>
+
+
+
+</div>
+
+<div class="hole hole3">
+<img src="images/sofa1.png" class="sofa1 sofa"/>
+<div class="mole mole3">
+
+<img src="images/giphy2.gif" class="janice1 janice imghidden"/>
+</div>
+
+
+
+</div>
+
+
+<div class="hole hole4">
+<img src="images/sofa1.png" class="sofa1 sofa"/>
+<div class="mole mole4">
+
+<img src="images/giphy2.gif" class="janice1 janice imghidden"/>
+</div>
+
+
+
+</div>
+
+
+<div class="hole hole5">
+<img src="images/sofa1.png" class="sofa1 sofa"/>
+<div class="mole mole5">
+
+<img src="images/giphy2.gif" class="janice1 janice imghidden"/>
+</div>
+
+
+
+</div>
+
+<div class="hole hole6">
+<img src="images/sofa1.png" class="sofa1 sofa"/>
+<div class="mole mole6">
+
+<img src="images/giphy2.gif" class="janice1 janice imghidden"/>
+</div>
+
+
+
+</div>
+
+</div>
+</div>
+
+</body>
+
+
+
+
+</html>
