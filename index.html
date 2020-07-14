@@ -71,8 +71,21 @@ position:absolute;top:2%;right:2%;text-align:center;
 margin-bottom:50px;
 
 }
-@media screen and (max-width:500px){
+.alert{
+width:50%;
 
+}
+@media screen and (max-width:800px){
+.alert{
+width:80%;
+
+}
+}
+@media screen and (max-width:500px){
+.alert{
+width:80%;
+
+}
 
 .scorecontainer{
 position:absolute;
@@ -113,8 +126,12 @@ left:34%;
 
 <button id="startbtn" class="btn btn-warning mx-5 my-5 btn-lg">START GAME <i class="fa fa-play-circle"></i></button>
 <div class="container ">
-<div class="alert alert-warning">
-<h4 style="text-align:center;"><u>BEAT JANICE IN THE HEAD</u>!!!!<br> <b>STOP CHANDLER FROM GOING TO YEMEN</b></h4>
+<div class="alert alert-warning" style=";display:flex;justify-content:space-between;margin:auto;">
+<div class="ml-5"><h4 style="text-align:center;"><u>BEAT JANICE IN THE HEAD</u>!!!!<br> <b>STOP CHANDLER FROM GOING TO YEMEN</b></h4>
+</div>
+<div class="">
+<button class="close" data-dismiss="alert">&times; </button>
+</div>
 </div>
 <div class="row">
 <div class="hole hole1">
