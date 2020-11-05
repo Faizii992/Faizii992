@@ -9,7 +9,7 @@ $("document").ready(function(){
 	var time=100;
 	function peep(){
 			
-			time-=20;
+			time-=10;
 			timer.style.width=time+"%";
 			timer.textContent=time+ "% time remaining";
 			
